@@ -1,13 +1,6 @@
 import tkinter
 
 
-def create_frame(parent, text):
-    frame = tkinter.Frame(parent)
-    label = tkinter.Label(frame, text=text)
-    label.pack()
-    return frame
-
-
 def main():
     root = tkinter.Tk()
     root.geometry("320x240")
